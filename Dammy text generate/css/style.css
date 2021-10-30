@@ -1,0 +1,40 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  background: #43972ef2;
+  padding: 2% 5%;
+  margin: 74px;
+  border-radius: 5px;
+  box-shadow: 4px 5px 3px 1px #000000a6;
+}
+.title h1 {
+  font-family: cursive;
+  font-weight: 600;
+}
+.title h2 {
+  font-family: cursive;
+  font-weight: 600;
+  position: relative;
+}
+.title h2::after {
+  width: 113px;
+  height: 3px;
+  content: '';
+  position: absolute;
+  background: red;
+  top: 42px;
+  left: 369px;
+}
+
+label.text-capitalize.fs-4 {
+  font-family: cursive;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
